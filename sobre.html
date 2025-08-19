@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Mim</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Sobre Mim</h1>
-    </header>
+  <!-- Header para exibir em qual tela estamos -->
+  <header>
+    <h1>Sobre Mim</h1>
+  </header>
 
-    <!-- Aba de navegação entre os arquivos do site -->
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="sobre.html">Sobre Mim</a>
-        <a href="formacao.html">Formação</a>
-        <a href="portfolio.html">Portfólio</a>
-        <a href="contato.html">Contato</a>
-    </nav>
-    <main>
+  <!-- Aba de navegação entre os arquivos do site -->
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Sobre Mim</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="contato.html">Contato</a>
+  </nav>
 
-        <!-- Separação em seções para abordar os tópicos sobre mim -->
-        <section>
-            <h2>Quem sou eu Teste?</h2>
-            <p>Meu nome é <strong>Andrey Ricardo</strong> e sou um entusiasta da tecnologia, sempre buscando aprender e criar coisas novas. Desde cedo, desenvolvi interesse por computadores, programação e design, o que me levou a explorar o mundo do desenvolvimento web.</p>
-        </section>
+  <!-- Parte principal para exibição do conteudo na página. -->
+  <main class="sobre-mim">
+    <!-- Foto de perfil -->
+    <section class="perfil">
+      <img src="image.jpg" alt="Foto de Andrey Ricardo">
+      <h2>Andrey Ricardo</h2>
+      <p>🚀 Entusiasta da tecnologia e iniciante em desenvolvimento web, sempre curioso e aprendendo coisas novas.</p>
+    </section>
 
-        <section>
-            <h2>Meus interesses</h2>
-            <p>Quando não estou programando, gosto de explorar novas ferramentas e frameworks, assistir documentários sobre inovação e, claro, jogar um bom game para relaxar. Também curto música, leitura e esportes ao ar livre para equilibrar a rotina.</p>
-        </section>
+    <!-- Seções de conteúdo -->
+    <section class="card">
+      <h2><i class="fa-solid fa-user"></i> Quem sou eu?</h2>
+      <p>Meu nome é <strong>Andrey Ricardo</strong> e sou apaixonado por tecnologia, programação e design. Estou explorando o mundo do desenvolvimento web com muito interesse e dedicação.</p>
+    </section>
 
-        <section>
-            <h2>Minha filosofia</h2>
-            <p>Acredito que o conhecimento só tem valor quando compartilhado. Por isso, estou sempre disposto a colaborar, trocar ideias e aprender com outras pessoas. Para mim, cada projeto é uma oportunidade de crescer e deixar minha marca.</p>
-        </section>
-    </main>
+    <!-- Seções de conteúdo -->
+    <section class="card">
+      <h2><i class="fa-solid fa-heart"></i> Meus interesses</h2>
+      <p>Adoro explorar novas ferramentas e frameworks, assistir documentários sobre inovação e jogar para relaxar. Também gosto de música, leitura e esportes ao ar livre.</p>
+    </section>
+
+    <!-- Seções de conteúdo -->
+    <section class="card">
+      <h2><i class="fa-solid fa-lightbulb"></i> Minha filosofia</h2>
+      <p>Acredito que o conhecimento só tem valor quando é compartilhado. Cada projeto é uma oportunidade de aprender, colaborar e deixar minha marca.</p>
+    </section>
+  </main>
 </body>
 </html>

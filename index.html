@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header para exibir em qual tela estamos -->
     <header>
-        <h1>Portfólio pessoal - Andrey Ricardo</h1>
+        <h1>Portfólio pessoal</h1>
     </header>
+
+    <!-- Aba de navegação entre os arquivos do site -->
     <nav>
         <a href="index.html">Inicio</a>
         <a href="sobre.html">Sobre Mim</a>
@@ -18,8 +21,40 @@
         <a href="contato.html">Contato</a>
     </nav>
     <main>
-        <p><strong>Olá visitante, Seja bem vindo.</strong> <br>
-        Escolha uma das opções acima para navegar.</p>
+        <!-- Seção de boas-vindas -->
+        <section class="welcome">
+            <h2>👋 Olá visitante, seja bem-vindo!</h2>
+            <p>
+                Este é o meu espaço pessoal na web, onde compartilho um pouco da minha
+                <strong>jornada como iniciante em tecnologia</strong>.
+            </p>
+            <p>
+                Ainda estou aprendendo, mas acredito que <em>cada linha de código</em> é um
+                passo rumo a um futuro melhor.
+            </p>
+        </section>
+
+        <!-- Seção com imagem e descrição -->
+        <section class="intro">
+            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Imagem de tecnologia" class="tech-img">
+            <div>
+                <h3>✨ O que você vai encontrar aqui?</h3>
+                <ul>
+                    <li>Um pouco sobre <strong>quem eu sou</strong> e minha trajetória</li>
+                    <li>Minha <strong>formação acadêmica</strong> e cursos que estou fazendo</li>
+                    <li>Pequenos <strong>projetos</strong> que desenvolvi até agora</li>
+                    <li>Um canal de <strong>contato</strong> para trocar ideias</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção motivacional -->
+        <section class="quote">
+            <blockquote>
+                "A tecnologia é construída por pessoas comuns que nunca pararam de aprender."
+            </blockquote>
+            <p>- E eu estou no início dessa caminhada 🚀</p>
+        </section>
     </main>
 </body>
 </html>

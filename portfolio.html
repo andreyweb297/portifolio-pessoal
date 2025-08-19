@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Portfólio</h1>
-    </header>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="sobre.html">Sobre Mim</a>
-        <a href="formacao.html">Formação</a>
-        <a href="portfolio.html">Portfólio</a>
-        <a href="contato.html">Contato</a>
-    </nav>
-    <main>
-        <p>Aqui estão alguns dos meus trabalhos:</p>
-        <ul>
-            <li><a href="https://example.com" target="_blank">Site de exemplo 1</a></li>
-            <li><a href="https://example.com" target="_blank">Site de exemplo 2</a></li>
-            <li><a href="https://example.com" target="_blank">Projeto do curso</a></li>
-        </ul>
-    </main>
+  <!-- Header para exibir em qual tela estamos -->
+  <header>
+    <h1>Portfólio</h1>
+  </header>
+
+  <!-- Aba de navegação entre os arquivos do site -->
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Sobre Mim</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <!-- Parte principal para exibição do conteudo na página. -->
+  <main>
+    <p>Aqui estão alguns dos meus trabalhos:</p>
+    
+    <!-- Seções de conteúdo -->
+    <section class="portfolio-grid">
+      <a href="trabalho_logica_de_programacao_e_algoritmos.pdf" target="_blank" class="card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Lógica de Programação e Algoritmos</h3>
+        <p>Exercícios e exemplos aplicados em lógica básica e estruturas de algoritmos.</p>
+      </a>
+
+      <a href="trabalho_relatorio_preenchido.pdf" target="_blank" class="card">
+        <i class="fa-solid fa-file-lines"></i>
+        <h3>Relatório Preenchido</h3>
+        <p>Modelo de relatório acadêmico preenchido com dados de exemplo.</p>
+      </a>
+    </section>
+  </main>
 </body>
 </html>
